@@ -5,11 +5,11 @@ permalink: /about/
 published: true
 ---
 
-Some information about you!
+Heck the plant.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Nam tristique nec risus vitae bibendum. Phasellus aliquet, nibh nec blandit consequat, elit orci tincidunt nibh, nec maximus libero diam eu quam. Pellentesque bibendum sem sed cursus sagittis. Morbi in nisl eleifend, semper dolor ac, suscipit tellus. Suspendisse pharetra magna non porta condimentum. Nullam venenatis turpis velit, vitae commodo nisi molestie id. Mauris ornare metus nisi, ac convallis mi efficitur sit amet. Nunc dui neque, commodo nec elit eu, interdum interdum libero.
 
 ### Contact me
 
