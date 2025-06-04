@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-Heck the plant.
+Hack the planet.
 
 ### More Information
 
