@@ -64,15 +64,15 @@ It covers:
 
 - A more detailed walkthrough of setting up your Jekyll blog
 - Common issues that you might encounter while using Jekyll
-- Importing from Wordpress, using your own domain name, and blogging in your favorite editor
+- Importing from **WordPress**, using your own domain name, and blogging in your favorite editor
 - Theming in Jekyll, with Liquid templating examples
-- A quick look at Jekyll 2.0’s new features, including Sass/Coffeescript support and Collections
+- A quick look at Jekyll 2.0’s new features, including Sass/CoffeeScript support and Collections
 
 ## Jekyll Now Features
 
 ✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog  
 ✓ Fully responsive and mobile optimized base theme (**[Theme Demo](http://jekyllnow.com)**)  
-✓ Sass/Coffeescript support using Jekyll 2.0  
+✓ Sass/CoffeeScript support using Jekyll 2.0
 ✓ Free hosting on your GitHub Pages user site  
 ✓ Markdown blogging  
 ✓ Syntax highlighting  
