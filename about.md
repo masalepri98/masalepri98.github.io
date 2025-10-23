@@ -13,7 +13,23 @@ I'm an offensive security researcher with a passion for finding and exploiting v
 - **Exploit Development**: Binary exploitation, shellcode development, ROP chains
 - **Programming**: Python, Bash, C, JavaScript, PowerShell
 - **Tools & Frameworks**: Burp Suite, Metasploit, Cobalt Strike, Bloodhound, Impacket
-- **Certifications**: [Add your certs here - OSCP, OSWE, OSEP, CEH, etc.]
+### Certifications
+
+**Offensive Security:**
+- [OffSec Certified Professional+ (OSCP+)](https://credentials.offsec.com/7cf5f2c0-3a18-4a96-8533-661cf5b8be81#acc.VHWIcCkL)
+- [OffSec Experienced Penetration Tester (OSEP)](https://credentials.offsec.com/4ddd5fad-d67f-440f-a61b-4aa973f052f5#acc.ypRqN0EG)
+
+**CompTIA:**
+- [PenTest+](https://www.credly.com/users/mason-prince/badges)
+- [CySA+ (Cybersecurity Analyst)](https://www.credly.com/users/mason-prince/badges)
+- [Security+](https://www.credly.com/users/mason-prince/badges)
+- [Network+](https://www.credly.com/users/mason-prince/badges)
+- [A+](https://www.credly.com/users/mason-prince/badges)
+
+**Other:**
+- [ISC² SSCP (Systems Security Certified Practitioner)](https://www.credly.com/users/mason-prince/badges)
+- [ITIL v4 Foundation](https://www.credly.com/users/mason-prince/badges)
+- [LPIC-1 Linux Administrator](https://www.credly.com/users/mason-prince/badges)
 
 ### Areas of Focus
 
