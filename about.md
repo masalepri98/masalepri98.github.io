@@ -5,12 +5,41 @@ permalink: /about/
 published: true
 ---
 
-Hack the planet.
+I'm an offensive security researcher with a passion for finding and exploiting vulnerabilities in web applications, networks, and systems. This blog serves as a portfolio of my work, showcasing CTF write-ups, vulnerability research, and insights from the frontlines of cybersecurity.
 
-### More Information
+### Technical Skills
 
-Nam tristique nec risus vitae bibendum. Phasellus aliquet, nibh nec blandit consequat, elit orci tincidunt nibh, nec maximus libero diam eu quam. Pellentesque bibendum sem sed cursus sagittis. Morbi in nisl eleifend, semper dolor ac, suscipit tellus. Suspendisse pharetra magna non porta condimentum. Nullam venenatis turpis velit, vitae commodo nisi molestie id. Mauris ornare metus nisi, ac convallis mi efficitur sit amet. Nunc dui neque, commodo nec elit eu, interdum interdum libero.
+- **Penetration Testing**: Web applications, network infrastructure, API security
+- **Exploit Development**: Binary exploitation, shellcode development, ROP chains
+- **Programming**: Python, Bash, C, JavaScript, PowerShell
+- **Tools & Frameworks**: Burp Suite, Metasploit, Cobalt Strike, Bloodhound, Impacket
+- **Certifications**: [Add your certs here - OSCP, OSWE, OSEP, CEH, etc.]
+
+### Areas of Focus
+
+- Web Application Security (OWASP Top 10, API vulnerabilities)
+- Active Directory & Windows exploitation
+- Binary exploitation and reverse engineering
+- Red Team operations and adversary simulation
+- Bug bounty hunting
+
+### What You'll Find Here
+
+This blog is a mix of:
+- **CTF Write-ups**: Detailed walkthroughs of Capture The Flag challenges from platforms like HackTheBox, TryHackMe, and CTF competitions
+- **Vulnerability Analysis**: Commentary on the latest CVEs, zero-days, and security incidents
+- **Security Tutorials**: Practical guides and techniques for penetration testing and exploit development
+- **Research**: My own vulnerability discoveries and security research projects
+
+### Why I Do This
+
+I believe in the power of offensive security to make systems stronger. Every vulnerability found is an opportunity to improve defenses. I'm passionate about learning, sharing knowledge, and contributing to the security community.
 
 ### Contact me
 
-[email](mailto:mason.a.prince@gmail.com)
+Interested in working together or have questions? Reach out!
+
+- **Email**: [mason.a.prince@gmail.com](mailto:mason.a.prince@gmail.com)
+- **Twitter**: [@MasonPrince93](https://twitter.com/MasonPrince93)
+- **GitHub**: [masalepri98](https://github.com/masalepri98)
+- **LinkedIn**: [masonaprince](https://linkedin.com/in/masonaprince)
