@@ -56,6 +56,6 @@ I believe in the power of offensive security to make systems stronger. Every vul
 Interested in working together or have questions? Reach out!
 
 - **Email**: [mason.a.prince@gmail.com](mailto:mason.a.prince@gmail.com)
-- **Twitter**: [@MasonPrince93](https://twitter.com/MasonPrince93)
+- **Twitter**: [@MasePrace93](https://twitter.com/MasePrace93)
 - **GitHub**: [masalepri98](https://github.com/masalepri98)
 - **LinkedIn**: [masonaprince](https://linkedin.com/in/masonaprince)

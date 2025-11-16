@@ -229,4 +229,4 @@ b5a[REDACTED]f2c
 - **Release Date**: November 2022
 - **IP**: 10.10.11.189
 
-Thanks for reading! Feel free to reach out on [Twitter](https://twitter.com/MasonPrince93) if you have questions or want to discuss the box.
+Thanks for reading! Feel free to reach out on [Twitter](https://twitter.com/MasePrace93) if you have questions or want to discuss the box.
