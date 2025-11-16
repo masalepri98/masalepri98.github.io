@@ -2,10 +2,22 @@
 layout: default
 ---
 <div class="posts">
-  {% for post in site.posts %}
+  {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+  {% for post in sorted_posts %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="post-info">
+        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+        {% if post.categories %}
+          <span class="post-categories">
+            {% for category in post.categories %}
+              <span class="category-badge">{{ category }}</span>
+            {% endfor %}
+          </span>
+        {% endif %}
+      </div>
 
       <div class="entry">
         {{ post.excerpt }}
@@ -15,3 +27,37 @@ layout: default
     </article>
   {% endfor %}
 </div>
+
+<style>
+.post-info {
+  color: #999;
+  font-size: 0.9em;
+  margin: 10px 0 15px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.post-date {
+  font-weight: 500;
+  color: #666;
+  margin-right: 15px;
+}
+
+.post-categories {
+  display: inline-block;
+}
+
+.category-badge {
+  background: #4183C4;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.85em;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.post h1 {
+  margin-bottom: 10px;
+}
+</style>
