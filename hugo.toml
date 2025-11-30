@@ -18,7 +18,17 @@ home = ["HTML", "RSS", "JSON"]
 [params]
 author = "Mason Prince"
 description = "Offensive Security Researcher | CTF Player | Vulnerability Research & Exploit Development"
+keywords = ["offensive security", "penetration testing", "OSWE", "OSEP", "OSCE3", "CTF", "vulnerability research", "exploit development", "web security", "red team"]
 env = "production"
+
+# SEO settings
+  [params.schema]
+  publisherType = "Person"
+
+  [params.twitter]
+  card = "summary_large_image"
+  site = "@MasePrace93"
+  creator = "@MasePrace93"
 defaultTheme = "dark"
 disableThemeToggle = false
 ShowReadingTime = true
