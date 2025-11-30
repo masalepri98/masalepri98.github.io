@@ -90,7 +90,7 @@ This site automatically deploys via Cloudflare Pages:
 
 - **Build command**: `hugo`
 - **Build output directory**: `public`
-- **Environment variable**: `HUGO_VERSION` = `0.139.0`
+- **Environment variable**: `HUGO_VERSION` = `0.146.0` (required by PaperMod theme)
 
 ## Blog Post Guidelines
 
