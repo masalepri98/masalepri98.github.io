@@ -1,8 +1,9 @@
 ---
-layout: post
 title: "HackTheBox - Precious Walkthrough"
+date: 2025-10-23
 categories: [CTF, HackTheBox, Web Exploitation]
 tags: [CTF, ruby, command-injection, privilege-escalation, yaml-deserialization]
+summary: "A complete walkthrough of the HackTheBox Precious machine, covering pdfkit command injection and YAML deserialization privilege escalation."
 ---
 
 Precious is an easy-rated Linux box on HackTheBox that focuses on web exploitation through command injection in a PDF generator service, followed by privilege escalation via YAML deserialization. This box is perfect for practicing enumeration and understanding how seemingly innocent features can be weaponized.

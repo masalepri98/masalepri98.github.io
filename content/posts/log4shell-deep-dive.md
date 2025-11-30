@@ -1,8 +1,9 @@
 ---
-layout: post
 title: "Deep Dive: Understanding Log4Shell (CVE-2021-44228)"
+date: 2025-10-15
 categories: [Vulnerability Analysis, CVE]
 tags: [log4j, java, rce, jndi, ldap]
+summary: "A comprehensive technical analysis of the Log4Shell vulnerability, including exploitation methodology, detection strategies, and mitigation techniques."
 ---
 
 Even though Log4Shell was discovered in late 2021, it remains one of the most critical vulnerabilities in recent history and continues to be exploited in the wild. Understanding how it works is essential for any security professional. Let's break down the technical details and exploitation methodology.

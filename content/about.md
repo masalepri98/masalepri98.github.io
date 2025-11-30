@@ -1,8 +1,7 @@
 ---
-layout: page
-title: About
-permalink: /about/
-published: true
+title: "About"
+url: "/about/"
+summary: "About Mason Prince - Offensive Security Researcher"
 ---
 
 I'm an offensive security researcher with a passion for finding and exploiting vulnerabilities in web applications, networks, and systems. This blog serves as a portfolio of my work, showcasing CTF write-ups, vulnerability research, and insights from the frontlines of cybersecurity.
@@ -13,6 +12,7 @@ I'm an offensive security researcher with a passion for finding and exploiting v
 - **Exploit Development**: Binary exploitation, shellcode development, ROP chains
 - **Programming**: Python, Bash, C, JavaScript, PowerShell
 - **Tools & Frameworks**: Burp Suite, Metasploit, Cobalt Strike, Bloodhound, Impacket
+
 ### Certifications
 
 **Offensive Security:**

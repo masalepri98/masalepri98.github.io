@@ -1,8 +1,9 @@
 ---
-layout: post
 title: "Building Custom Wordlists for Targeted Attacks"
+date: 2025-10-01
 categories: [Tutorials, Penetration Testing]
 tags: [wordlists, osint, password-cracking, bruteforce, reconnaissance]
+summary: "Learn how to create effective custom wordlists for penetration testing, including OSINT techniques, web scraping, and password mutation strategies."
 ---
 
 One of the most overlooked aspects of penetration testing is wordlist creation. While generic wordlists like `rockyou.txt` are useful, custom wordlists tailored to your target dramatically increase your success rate for password attacks, directory brute-forcing, and subdomain enumeration. Let me show you how to build effective custom wordlists.

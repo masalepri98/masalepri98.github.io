@@ -9,7 +9,7 @@ This is my personal security research blog where I share:
 
 ## About This Blog
 
-Built with Jekyll and hosted on GitHub Pages, this blog serves as a portfolio for prospective employers and a knowledge-sharing platform for the security community.
+Built with Hugo and hosted on Cloudflare Pages, this blog serves as a portfolio for prospective employers and a knowledge-sharing platform for the security community.
 
 ### Recent Posts
 
@@ -18,10 +18,10 @@ Check out my latest content on offensive security, including real-world exploita
 ## Technical Details
 
 This blog is built using:
-- **Jekyll**: Static site generator
-- **GitHub Pages**: Free hosting
+- **[Hugo](https://gohugo.io/)**: Fast static site generator written in Go
+- **[PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod)**: Clean, responsive Hugo theme
+- **[Cloudflare Pages](https://pages.cloudflare.com/)**: Fast, secure hosting with automatic builds
 - **Markdown**: For writing posts
-- **Syntax Highlighting**: For code examples
 
 ### Post Categories
 
@@ -37,36 +37,60 @@ Posts are organized into categories:
 If you want to run the blog locally:
 
 ```bash
-# Install dependencies
-gem install github-pages
+# Install Hugo (macOS)
+brew install hugo
 
-# Clone the repository
-git clone https://github.com/masalepri98/masalepri98.github.io.git
+# Install Hugo (Linux)
+sudo apt install hugo
+# or snap install hugo
+
+# Clone the repository (including submodules for the theme)
+git clone --recurse-submodules https://github.com/masalepri98/masalepri98.github.io.git
 cd masalepri98.github.io
 
-# Run Jekyll locally
-jekyll serve
+# Run Hugo development server
+hugo server -D
 
-# View at http://127.0.0.1:4000/
+# View at http://localhost:1313/
 ```
 
 ## Writing New Posts
 
 To create a new blog post:
 
-1. Create a new file in `_posts/` directory
-2. Name it: `YYYY-MM-DD-Title-Of-Post.md`
-3. Add front matter:
-   ```yaml
-   ---
-   layout: post
-   title: "Your Post Title"
-   categories: [Category1, Category2]
-   tags: [tag1, tag2, tag3]
-   ---
-   ```
-4. Write your content in Markdown
-5. Commit and push to GitHub
+```bash
+# Create a new post
+hugo new posts/my-new-post.md
+```
+
+Or manually create a file in `content/posts/` with front matter:
+
+```yaml
+---
+title: "Your Post Title"
+date: 2025-01-01
+categories: [Category1, Category2]
+tags: [tag1, tag2, tag3]
+summary: "Brief description of the post"
+---
+
+Your content here...
+```
+
+## Cloudflare Pages Deployment
+
+This site automatically deploys via Cloudflare Pages:
+
+1. Push changes to the `main` branch
+2. Cloudflare Pages automatically triggers a build
+3. Hugo builds the static site
+4. Site is deployed to the Cloudflare edge network
+
+### Build Settings (Cloudflare Pages)
+
+- **Build command**: `hugo`
+- **Build output directory**: `public`
+- **Environment variable**: `HUGO_VERSION` = `0.139.0`
 
 ## Blog Post Guidelines
 
@@ -75,7 +99,7 @@ For consistency and professionalism:
 - **CTF Write-ups**: Include methodology, tools used, and lessons learned
 - **Vulnerability Analysis**: Provide technical details, impact assessment, and mitigation
 - **Tutorials**: Step-by-step instructions with code examples
-- **Screenshots**: Use images to illustrate concepts (stored in `/images/`)
+- **Screenshots**: Use images to illustrate concepts (stored in `/static/images/`)
 - **Code Blocks**: Use syntax highlighting for all code examples
 - **References**: Link to sources and additional resources
 
@@ -92,6 +116,6 @@ This blog content is for educational purposes. Please reference appropriately if
 
 ## Credits
 
-- Built with [Jekyll](https://github.com/jekyll/jekyll)
-- Based on [Jekyll Now](https://github.com/barryclark/jekyll-now) theme
-- Hosted on [GitHub Pages](https://pages.github.com/)
+- Built with [Hugo](https://gohugo.io/)
+- Theme: [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+- Hosted on [Cloudflare Pages](https://pages.cloudflare.com/)
