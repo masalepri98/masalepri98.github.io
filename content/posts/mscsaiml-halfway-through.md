@@ -1,5 +1,6 @@
 ---
 title: "Bridging Offensive Security and AI/ML: Halfway Through WGU's MSCSAIML Program"
+slug: "bridging-offensive-security-and-aiml-halfway-through-wgus-mscsaiml-program"
 date: 2025-11-16T10:00:00
 categories: [Education, AI/ML, Career Development]
 tags: [WGU, masters-degree, artificial-intelligence, machine-learning, education, cybersecurity]

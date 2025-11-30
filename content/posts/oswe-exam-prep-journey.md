@@ -1,5 +1,6 @@
 ---
 title: "OSWE Exam Prep: My Journey to OSCE³ Certification #2"
+slug: "oswe-exam-prep-my-journey-to-osce3-certification-2"
 date: 2025-11-16T08:00:00
 categories: [Certifications, Offensive Security, Web Security]
 tags: [OSWE, AWAE, OSCE3, web-exploitation, code-review, preparation]
