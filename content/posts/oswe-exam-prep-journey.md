@@ -1,8 +1,9 @@
 ---
-layout: post
 title: "OSWE Exam Prep: My Journey to OSCE³ Certification #2"
+date: 2025-11-16T08:00:00
 categories: [Certifications, Offensive Security, Web Security]
 tags: [OSWE, AWAE, OSCE3, web-exploitation, code-review, preparation]
+summary: "My preparation strategy and resources for the OffSec Web Expert (OSWE) exam, the second step toward completing the OSCE³ certification."
 ---
 
 This Friday, November 21st, I'll be sitting for the OffSec Web Expert (OSWE) exam - my second step toward completing the OSCE³ certification trilogy. After earning my OSEP earlier this year, I've been deep in the trenches of web application security, preparing for what many consider one of the most challenging hands-on security certifications available.

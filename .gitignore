@@ -1,10 +1,25 @@
-_site
+# Hugo build output
+public/
+resources/_gen/
+
+# Hugo temp files
+.hugo_build.lock
+
+# OS files
 .DS_Store
-.jekyll
-.jekyll-metadata
-.bundle
-.sass-cache
-Gemfile
-Gemfile.lock
-node_modules
-package.json
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Node modules (if using npm for assets)
+node_modules/
+package-lock.json
+
+# Local development
+.env
+.env.local

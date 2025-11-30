@@ -1,8 +1,9 @@
 ---
-layout: post
 title: "Bridging Offensive Security and AI/ML: Halfway Through WGU's MSCSAIML Program"
+date: 2025-11-16T10:00:00
 categories: [Education, AI/ML, Career Development]
 tags: [WGU, masters-degree, artificial-intelligence, machine-learning, education, cybersecurity]
+summary: "Reflecting on reaching the halfway point in WGU's Master of Science in Computer Science with AI/ML emphasis, and exploring the intersection of offensive security and machine learning."
 ---
 
 I'm excited to share that I've reached the halfway point in Western Governors University's Master of Science in Computer Science with an emphasis in Artificial Intelligence and Machine Learning (MSCSAIML). With 5 out of 10 courses completed, I'm on track to finish by July 2026, and the journey has been both challenging and incredibly rewarding.
