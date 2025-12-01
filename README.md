@@ -1,4 +1,4 @@
-# Mason Prince - Offensive Security Portfolio
+# Mason Prince / @techxlal - Offensive Security Portfolio
 
 This is my personal security research blog where I share:
 

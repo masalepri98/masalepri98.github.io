@@ -1,10 +1,13 @@
-baseURL = "https://masalepri98-github-io.pages.dev/"
+baseURL = "https://masonprince93.com/"
 languageCode = "en-us"
-title = "Mason Prince"
+title = "Mason Prince | Offensive Security Researcher & Pentester"
 theme = "PaperMod"
 
 # Enable emoji support
 enableEmoji = true
+
+# Enable sitemap generation
+enableRobotsTXT = true
 
 # Build settings
 buildDrafts = false
@@ -15,11 +18,18 @@ buildExpired = false
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
+# Sitemap settings for SEO
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
+
 [params]
 author = "Mason Prince"
-description = "Offensive Security Researcher | CTF Player | Vulnerability Research & Exploit Development"
-keywords = ["offensive security", "penetration testing", "OSWE", "OSEP", "OSCE3", "CTF", "vulnerability research", "exploit development", "web security", "red team"]
+description = "Mason Prince - Offensive Security Researcher, OSWE/OSEP certified pentester, CTF player, and vulnerability researcher specializing in web application security and exploit development."
+keywords = ["Mason Prince", "offensive security", "penetration testing", "OSWE", "OSEP", "OSCE3", "CTF", "vulnerability research", "exploit development", "web security", "red team", "ethical hacking", "cybersecurity blog", "security researcher"]
 env = "production"
+images = ["images/hackdjinn-logo.png"]
 
 # SEO settings
   [params.schema]
@@ -29,6 +39,9 @@ env = "production"
   card = "summary_large_image"
   site = "@MasePrace93"
   creator = "@MasePrace93"
+  title = "Mason Prince | Offensive Security Researcher"
+  description = "Offensive Security Researcher, OSWE/OSEP certified, CTF player, vulnerability research & exploit development."
+  image = "images/hackdjinn-logo.png"
 defaultTheme = "dark"
 disableThemeToggle = false
 ShowReadingTime = true
