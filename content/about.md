@@ -6,6 +6,8 @@ summary: "Mason Prince - OSWE/OSEP/OSCP+ certified offensive security researcher
 keywords: ["Mason Prince", "offensive security researcher", "penetration tester", "OSWE", "OSEP", "OSCP", "web security", "ethical hacker"]
 ---
 
+![Mason Prince](/images/me-animated-122025.png)
+
 I'm an offensive security researcher with a passion for finding and exploiting vulnerabilities in web applications, networks, and systems. This blog serves as a portfolio of my work, showcasing CTF write-ups, vulnerability research, and insights from the frontlines of cybersecurity.
 
 ### Technical Skills
