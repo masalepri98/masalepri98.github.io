@@ -72,6 +72,10 @@ tocopen = false
     url = "posts"
 
     [[params.profileMode.buttons]]
+    name = "Projects"
+    url = "projects"
+
+    [[params.profileMode.buttons]]
     name = "About"
     url = "about"
 
@@ -130,6 +134,12 @@ identifier = "tags"
 name = "Tags"
 url = "/tags/"
 weight = 30
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 35
 
 [[menu.main]]
 identifier = "about"
