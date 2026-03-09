@@ -26,6 +26,7 @@ I'm an offensive security engineer with 5+ years of experience across penetratio
 - [OffSec Certified Professional+ (OSCP+)](https://credentials.offsec.com/7cf5f2c0-3a18-4a96-8533-661cf5b8be81#acc.VHWIcCkL) — Jun 2025
 - [OffSec Experienced Penetration Tester (OSEP)](https://credentials.offsec.com/4ddd5fad-d67f-440f-a61b-4aa973f052f5#acc.ypRqN0EG) — Nov 2024
 - OffSec Exploit Developer (OSED) — *In progress, expected Nov 2026*
+- **OSCE³** *(OffSec Certified Expert³)* — *Anticipated upon OSED completion (Nov 2026); requires OSEP + OSWE + OSED)*
 
 **Cloud & Security Management (ISC²):**
 - [ISC² CCSP (Certified Cloud Security Professional)](https://www.credly.com/users/mason-prince/badges)
