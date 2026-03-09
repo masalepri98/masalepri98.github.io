@@ -1,28 +1,35 @@
 ---
 title: "About Mason Prince - Offensive Security Researcher & Pentester"
 url: "/about/"
-description: "Mason Prince is an OSWE, OSEP, and OSCP+ certified offensive security researcher specializing in web application security, penetration testing, vulnerability research, and exploit development."
-summary: "Mason Prince - OSWE/OSEP/OSCP+ certified offensive security researcher, pentester, and CTF player specializing in web application security and exploit development."
-keywords: ["Mason Prince", "offensive security researcher", "penetration tester", "OSWE", "OSEP", "OSCP", "web security", "ethical hacker"]
+description: "Mason Prince is an OSWE, OSEP, and OSCP+ certified offensive security researcher specializing in web application security, red team operations, penetration testing, and AI/ML security research."
+summary: "Mason Prince — OSCP+/OSEP/OSWE certified offensive security engineer, red team operator, and AppSec researcher with FedRAMP experience and an active Secret clearance."
+keywords: ["Mason Prince", "offensive security researcher", "penetration tester", "OSWE", "OSEP", "OSCP", "red team", "AppSec", "FedRAMP", "web security", "AI security", "ethical hacker"]
 ---
 
 ![Mason Prince](/images/me-animated-122025.png)
 
-I'm an offensive security researcher with a passion for finding and exploiting vulnerabilities in web applications, networks, and systems. This blog serves as a portfolio of my work, showcasing CTF write-ups, vulnerability research, and insights from the frontlines of cybersecurity.
+I'm an offensive security engineer with 5+ years of experience across penetration testing, red team operations, and application security — in both commercial and U.S. federal (FedRAMP) environments. My work sits at the intersection of offensive tradecraft, cloud security, and emerging AI attack surfaces.
 
 ### Technical Skills
 
-- **Penetration Testing**: Web applications, network infrastructure, API security
+- **Penetration Testing**: Web applications, network infrastructure, API security, cloud environments
+- **Red Team Operations**: Adversary simulation, C2 infrastructure, post-exploitation, lateral movement
 - **Exploit Development**: Binary exploitation, shellcode development, ROP chains
-- **Programming**: Python, Bash, C, JavaScript, PowerShell
-- **Tools & Frameworks**: Burp Suite, Metasploit, Cobalt Strike, Bloodhound, Impacket
+- **AI/ML Security**: Adversarial ML, LLM attack surfaces, AI agent security (MCP, tool poisoning)
+- **Programming**: Python, Go, Bash, C, JavaScript, PowerShell
+- **Tools & Frameworks**: Burp Suite Pro, Caido, Cobalt Strike, Metasploit, Bloodhound, Impacket, custom tooling
 
 ### Certifications
 
-**Offensive Security:**
-- [OffSec Certified Professional+ (OSCP+)](https://credentials.offsec.com/7cf5f2c0-3a18-4a96-8533-661cf5b8be81#acc.VHWIcCkL)
-- [OffSec Experienced Penetration Tester (OSEP)](https://credentials.offsec.com/4ddd5fad-d67f-440f-a61b-4aa973f052f5#acc.ypRqN0EG)
-- [OffSec Web Expert (OSWE)](https://credentials.offsec.com/5b6a5e9c-2136-4481-9423-08c9a4bdf8e4#acc.CPtlHv9z)
+**Offensive Security (OffSec):**
+- [OffSec Web Expert (OSWE)](https://credentials.offsec.com/5b6a5e9c-2136-4481-9423-08c9a4bdf8e4#acc.CPtlHv9z) — Nov 2025
+- [OffSec Certified Professional+ (OSCP+)](https://credentials.offsec.com/7cf5f2c0-3a18-4a96-8533-661cf5b8be81#acc.VHWIcCkL) — Jun 2025
+- [OffSec Experienced Penetration Tester (OSEP)](https://credentials.offsec.com/4ddd5fad-d67f-440f-a61b-4aa973f052f5#acc.ypRqN0EG) — Nov 2024
+- OffSec Exploit Developer (OSED) — *In progress, expected Nov 2026*
+
+**Cloud & Security Management (ISC²):**
+- [ISC² CCSP (Certified Cloud Security Professional)](https://www.credly.com/users/mason-prince/badges)
+- [ISC² SSCP (Systems Security Certified Practitioner)](https://www.credly.com/users/mason-prince/badges)
 
 **CompTIA:**
 - [PenTest+](https://www.credly.com/users/mason-prince/badges)
@@ -32,17 +39,23 @@ I'm an offensive security researcher with a passion for finding and exploiting v
 - [A+](https://www.credly.com/users/mason-prince/badges)
 
 **Other:**
-- [ISC² SSCP (Systems Security Certified Practitioner)](https://www.credly.com/users/mason-prince/badges)
 - [ITIL v4 Foundation](https://www.credly.com/users/mason-prince/badges)
 - [LPIC-1 Linux Administrator](https://www.credly.com/users/mason-prince/badges)
 
 ### Areas of Focus
 
-- Web Application Security (OWASP Top 10, API vulnerabilities)
-- Active Directory & Windows exploitation
-- Binary exploitation and reverse engineering
+- Web Application Security (OWASP Top 10, API vulnerabilities, source code review)
 - Red Team operations and adversary simulation
+- Active Directory & Windows exploitation
+- FedRAMP assessment support and compliance-driven security
+- AI/ML security — LLM attack surfaces, agent security, adversarial inputs
+- Cloud security (AWS, Azure attack surfaces)
 - Bug bounty hunting
+
+### Education
+
+- **M.S. Computer Science — AI/ML Specialization** *(In Progress)*, Western Governors University
+- **B.S. Cybersecurity & Information Assurance**, Western Governors University — Jan 2025
 
 ### What You'll Find Here
 
@@ -50,11 +63,11 @@ This blog is a mix of:
 - **CTF Write-ups**: Detailed walkthroughs of Capture The Flag challenges from platforms like HackTheBox, TryHackMe, and CTF competitions
 - **Vulnerability Analysis**: Commentary on the latest CVEs, zero-days, and security incidents
 - **Security Tutorials**: Practical guides and techniques for penetration testing and exploit development
-- **Research**: My own vulnerability discoveries and security research projects
+- **Research**: My own vulnerability discoveries and security research — including the emerging AI/agent attack surface
 
 ### Why I Do This
 
-I believe in the power of offensive security to make systems stronger. Every vulnerability found is an opportunity to improve defenses. I'm passionate about learning, sharing knowledge, and contributing to the security community.
+I believe in the power of offensive security to make systems stronger. Every vulnerability found is an opportunity to improve defenses. I'm passionate about learning, sharing knowledge, and contributing to the security community — especially as AI reshapes the threat landscape.
 
 ### Contact me
 
