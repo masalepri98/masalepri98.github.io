@@ -43,7 +43,7 @@ A curated study path and resource collection developed during preparation for th
 
 **Category**: Research / Emerging Threats
 
-Ongoing research into the intersection of offensive security tradecraft and machine learning — covering adversarial inputs, LLM attack surfaces, AI agent exploitation, and the implications of ML systems in enterprise environments. Informed by active M.S. Computer Science (AI/ML) coursework.
+Ongoing research into the intersection of offensive security tradecraft and machine learning — covering adversarial inputs, LLM attack surfaces, AI agent exploitation, and the implications of ML systems in enterprise environments. Informed by M.S. Computer Science (AI/ML) coursework, completed Jul 2026.
 
 📄 [Read the overview post](/bridging-offensive-security-and-ai/ml-halfway-through-wgus-mscsaiml-program/)
 

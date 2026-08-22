@@ -55,7 +55,7 @@ I'm an offensive security engineer with 5+ years of experience across penetratio
 
 ### Education
 
-- **M.S. Computer Science — AI/ML Specialization** *(In Progress)*, Western Governors University
+- **M.S. Computer Science — AI/ML Specialization**, Western Governors University — Jul 2026 (completed)
 - **B.S. Cybersecurity & Information Assurance**, Western Governors University — Jan 2025
 
 ### What You'll Find Here
