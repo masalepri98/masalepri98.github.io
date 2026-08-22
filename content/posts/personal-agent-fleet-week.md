@@ -1,7 +1,7 @@
 ---
 title: "What I Actually Shipped With a Personal Agent Fleet This Week"
 slug: "what-i-actually-shipped-with-a-personal-agent-fleet-this-week"
-date: 2026-08-22T09:00:00
+date: 2026-08-22T01:00:00Z
 description: "A week of running a CEO-style front-door agent over specialist Cursor and Grok bots: a real portfolio sample, a retargeted Fiverr gig, an AgentMail inbox, a newsletter page, and the hard limits of automating marketplaces."
 summary: "I ran a personal agent fleet this week instead of treating chat like a search box. Here's what actually left the machine — and the three failure modes I will not repeat."
 categories: [AI Agents, Career Development]
