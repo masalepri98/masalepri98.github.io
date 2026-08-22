@@ -53,6 +53,11 @@ I'm an offensive security engineer with 5+ years of experience across penetratio
 - Cloud security (AWS, Azure attack surfaces)
 - Bug bounty hunting
 
+### Experience
+
+- **Penetration Tester** — MindPoint Group, A Tyto Athene Company (Mar 2023–Present)
+  Web/network/infrastructure penetration testing and red team support for commercial and federal FedRAMP environments. Active Secret clearance.
+
 ### Education
 
 - **M.S. Computer Science — AI/ML Specialization**, Western Governors University — Jul 2026 (completed)
