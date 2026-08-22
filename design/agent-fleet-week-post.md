@@ -9,7 +9,7 @@ The site has certification and AI-security writeups, but nothing that records wh
 - Add one PaperMod post under `content/posts/`.
 - Date `2026-08-22`, `draft: false`.
 - Match existing post voice (OSWE review / MCP post): first person, direct, short sections.
-- Cover only the sanitized facts: CEO-style front-door agent, Cedar & Kiln portfolio sample, Fiverr retarget, AgentMail inbox, `/newsletter/`, subscription audit, three hard lessons, reading list.
+- Cover only the sanitized facts: CEO-style front-door agent, Cedar & Kiln portfolio sample, Fiverr retarget, AgentMail inbox, `/newsletter/`, subscription audit, three hard lessons, verified reading list (Anthropic / Cursor / Codex / MCP / Osmani / Majors / Cloudflare; optional Willison pair).
 - Link live public URLs. Do not invent Fiverr order volume, reviews, or earnings. Do not mention client/employer names or dollar amounts.
 - Do not change homepage branding, menus, or add API keys.
 

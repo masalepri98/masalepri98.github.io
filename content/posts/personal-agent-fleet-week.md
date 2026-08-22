@@ -68,13 +68,21 @@ The agent was good at the forensics — grouping charges, spotting the duplicate
 
 ## Reading list
 
-A few pieces I actually used as guardrails this week, not a dump of tabs.
+Pieces I actually used as guardrails this week, not a dump of tabs.
 
-- [Stateless MCP has recaptured my interest](https://simonwillison.net/2026/Jul/31/stateless-mcp/) — Simon Willison on MCP 2.0. Stateless tools are simpler to implement and easier to audit than handing an agent a raw shell and `curl`. That is the difference between a capability I can reason about and a capability I just hope behaves.
-- [There are no lossless transformations of natural-language text](https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/) — Sophie Alpert, via Willison. If a model helped write it, I still have to stand behind every sentence. "AI wrote that, ignore it" is not an acceptable answer when someone asks what I meant.
-- [The job market in 2026, part 2](https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2) — Gergely Orosz and Jessica Salmon. AI engineering demand and comp are outrunning general SWE. That is the market I am walking toward, not a reason to pretend I am already an AI lab hire.
-- [Top enterprise coding agents in 2026](https://northflank.com/blog/top-enterprise-coding-agents) — a useful map of the agent landscape, and the reminder that generation is not deployment. A PR from Cursor is not a running system.
-- [agent-security-scanner-mcp](https://github.com/sinewaveai/agent-security-scanner-mcp) — an MCP scanner for agent-written code: prompt-injection firewall, package-hallucination checks, and a pile of vuln rules. If a bot is going to invent a dependency, I want that caught before it hits `package.json`.
+- [Best practices for Claude Code](https://www.anthropic.com/engineering/claude-code-best-practices) — plan-then-implement, close the loop with a check the agent can run, and keep `CLAUDE.md` short enough that the model still obeys it. One-shot prompts skip this on purpose and then act surprised.
+- [Scaling long-running autonomous coding](https://cursor.com/blog/scaling-agents) — Wilson Lin / Cursor, Jan 2026. Coordinating many concurrent agents. Flat lock-file coordination dies; planner/worker (plus a judge) is the pattern that holds. That is the front-door habit I am copying at personal scale.
+- [Introducing the Codex app](https://openai.com/index/introducing-the-codex-app) — Codex as a multi-agent command center. One place to dispatch specialists instead of a pile of unrelated chat tabs.
+- [MCP security best practices](https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices) — official checklist: OAuth done correctly, confused-deputy on proxy servers, least privilege. If a bot is going to hold tokens, start here.
+- [MCP server security](https://generalanalysis.com/guides/mcp-server-security) — May 2026 threat model and supply-chain controls. Treat server install like a privileged dependency, not a chatbot plugin.
+- [The next two years of software engineering](https://addyosmani.com/blog/next-two-years/) — Addy Osmani. T-shaped depth plus breadth beats niche-only and beats "pure generalist." Offsec plus shipping is the shape I want, not another title change.
+- [Stop being skeptical about AI for development](https://newsletter.pragmaticengineer.com/p/stop-being-skeptical-about-ai-for) — Charity Majors via Pragmatic Engineer. Codegen got cheap; verification is the bottleneck. Numbered approval is the cheap version of that.
+- [The Agent Development Lifecycle](https://blog.cloudflare.com/agent-development-lifecycle/) — agents have to own plan → deploy → maintain, not just codegen. A PR from Cursor is not a running system.
+
+Still useful, shorter:
+
+- [Stateless MCP has recaptured my interest](https://simonwillison.net/2026/Jul/31/stateless-mcp/) — Simon Willison. Stateless tools are easier to audit than handing an agent a raw shell.
+- [There are no lossless transformations of natural-language text](https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/) — Sophie Alpert, via Willison. Stand behind every sentence a model helped write.
 
 ## What this is, and isn't
 
