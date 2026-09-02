@@ -31,6 +31,6 @@ Preconditions:
 ## Gotchas
 
 - `profileMode` hides the home post stream. A missing post list on `/` is correct.
-- Default theme is dark. A dark screenshot is expected until nav-and-theme toggles it.
+- `hugo.toml` sets `defaultTheme = "dark"`, but Chrome may honor `prefers-color-scheme` and open light. Do not fail home because the first paint is light.
 - The email social icon is `mailto:mason.a.prince@gmail.com`. The CLI refuses that click.
 - Cloudflare may show an interstitial first. `wait --ready` until `.profile` or `ul#menu` exists; do not treat the challenge page as the home profile.

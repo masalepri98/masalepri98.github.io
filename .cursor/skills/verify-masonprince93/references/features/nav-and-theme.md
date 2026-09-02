@@ -20,7 +20,7 @@ Persistent PaperMod chrome: the header menu from `[[menu.main]]` in `hugo.toml`,
 Preconditions:
 
 - `doctor` + `launch` on `/`.
-- Default theme on a fresh user-data-dir is dark.
+- A fresh user-data-dir often follows `hugo.toml` `defaultTheme = "dark"`, but Chrome may apply `prefers-color-scheme` and open in light. Assert a **change** on toggle, not a specific starting theme.
 
 - **Menu presence.** `snapshot` → `page.menu` lists the seven names above.
 - **One destination.** `click --name Projects` → URL `/projects/`. Return home via logo if the next step needs `/`.

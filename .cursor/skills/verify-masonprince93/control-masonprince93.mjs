@@ -859,6 +859,20 @@ async function cmdDrive(parsed) {
       const page = await run("about-ready", () => waitForReadyState(session));
       const facts = aboutFacts(page);
       await capturePair(session, dir, "after-about-nav", page);
+      await run("scroll-experience", async () =>
+        evaluate(
+          session,
+          `(() => {
+            const heading = document.getElementById("experience")
+              || [...document.querySelectorAll("h1,h2,h3,h4")].find((h) => /experience/i.test(h.textContent || ""));
+            if (heading) heading.scrollIntoView({ block: "start" });
+            return { scrolled: Boolean(heading), id: heading?.id || null, text: heading?.textContent || null };
+          })()`,
+        ),
+      );
+      await new Promise((r) => setTimeout(r, 200));
+      const scrolled = await evaluate(session, PAGE_STATE_JS);
+      await capturePair(session, dir, "after-about-experience", scrolled);
       return finishDrive({ feature, dir, actions, ok: facts.ok, assertions: facts, page });
     }
     if (feature === "posts") {

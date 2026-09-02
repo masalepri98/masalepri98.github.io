@@ -29,7 +29,7 @@ Preconditions:
 - **Recipe.** `drive --feature about` does home → click About → assert role, employer, both degrees, school.
 - **Profile button.** From `/`, `click --name About` also matches the profile button if the menu name is the same; if both exist, either is a valid About entry. Confirm URL `/about/`.
 - **Typed URL (secondary).** `navigate --url /about/` proves the route exists. Do not use this as the only proof when the change was “About link in the header”.
-- **Proof.** Snapshot excerpt must contain the employer string and both degree names exactly enough to match `content/about.md`. Screenshot shows the Experience and Education headings. Record the click in `summary.json`.
+- **Proof.** Snapshot excerpt must contain the employer string and both degree names exactly enough to match `content/about.md`. The first screenshot is the About chrome after the nav click (above the fold). Scroll to `#experience` and capture a second PNG so MindPoint Group and the WGU lines are visible. Record the click in `summary.json`.
 
 Expected strings (copy from the live page / `content/about.md`, do not paraphrase):
 
