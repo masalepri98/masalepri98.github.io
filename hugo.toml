@@ -79,6 +79,10 @@ tocopen = false
     name = "About"
     url = "about"
 
+    [[params.profileMode.buttons]]
+    name = "Hire"
+    url = "hire"
+
   [params.homeInfoParams]
   Title = "Welcome"
   Content = "Offensive Security Researcher | CTF Player | Vulnerability Research & Exploit Development"
@@ -116,6 +120,13 @@ tocopen = false
   minMatchCharLength = 0
   keys = ["title", "permalink", "summary", "content"]
 
+  # /hire checkout: paste the full Stripe Payment Link URL after creating it in
+  # Stripe Dashboard → Payment Links. Swap only this string; both CTA buttons
+  # on /hire read it via the hire-cta shortcode. Placeholder until then:
+  #   stripePaymentLink = "YOUR_STRIPE_PAYMENT_LINK"
+  [params.hire]
+  stripePaymentLink = "YOUR_STRIPE_PAYMENT_LINK"
+
 # Main menu
 [[menu.main]]
 identifier = "posts"
@@ -146,6 +157,12 @@ identifier = "about"
 name = "About"
 url = "/about/"
 weight = 40
+
+[[menu.main]]
+identifier = "hire"
+name = "Hire"
+url = "/hire/"
+weight = 42
 
 [[menu.main]]
 identifier = "newsletter"

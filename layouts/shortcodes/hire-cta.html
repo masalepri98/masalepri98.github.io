@@ -1,0 +1,13 @@
+{{- /*
+  Renders the /hire Stripe checkout button.
+
+  Mason: after you create a Payment Link in Stripe, paste the full URL
+  into hugo.toml → [params.hire] stripePaymentLink.
+  That single string is what this shortcode uses.
+*/ -}}
+{{- $href := "YOUR_STRIPE_PAYMENT_LINK" -}}
+{{- with site.Params.hire.stripePaymentLink -}}
+  {{- $href = . -}}
+{{- end -}}
+{{- $label := .Get 0 | default "Start the $850 package" -}}
+<p><a class="button" href="{{ $href }}">{{ $label }}</a></p>
